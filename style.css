@@ -33,6 +33,7 @@ time, u, var, wbr, .text {
 }
 .header {
     font-family: RubikMonoOne;
+    font-size: 150%;
 }
 
 input, textarea {
