@@ -1,0 +1,66 @@
+@media (min-width:1025px) {
+    *:not(body, html) {
+        font-size: 70%;
+    }
+}
+
+@font-face {
+    font-family: RubikMonoOne;
+    src: url(fonts/RubikMonoOne/font.ttf);
+}
+@font-face {
+    font-family: Rubik;
+    src: url(fonts/Rubik/font.ttf);
+}
+
+* {
+    font-size: 135%;
+}
+
+img.logo {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 1rem;
+}
+
+blockquote, dd, div, dl, dt, figcaption,
+figure, hr, li, menu, ol, p, pre, ul, a,
+abbr, b, bdi, bdo, br, cite, code, data,
+dfn, em, i, kbd, mark, q, rp, rt, ruby,
+s, samp, small, span, strong, sub, sup,
+time, u, var, wbr, .text {
+    font-family: Rubik;
+}
+.header {
+    font-family: RubikMonoOne;
+}
+
+input, textarea {
+    font-family: Rubik;
+
+    border: .15rem solid #8A3033;
+    min-height: 3rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+button, input[type="submit"], .button {
+    font-family: RubikMonoOne;
+
+    display: block;
+    min-height: 5rem;
+    border-radius: 2rem;
+    background: #ffd0d3;
+    border: .15rem solid #8A3033;
+    padding: 1rem;
+    cursor: pointer;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+button:active, input[type="submit"]:active, .button:active {
+    color: white;
+    background: #8A3033;
+    border: .15rem solid #ffd0d3;
+}
