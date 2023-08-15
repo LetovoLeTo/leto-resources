@@ -21,6 +21,7 @@ img.logo {
     width: 7rem;
     height: 7rem;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 blockquote, dd, div, dl, dt, figcaption,
