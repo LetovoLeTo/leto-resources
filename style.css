@@ -68,5 +68,17 @@ button:active, input[type="submit"]:active, .button:active {
 }
 
 table {
-    border-radius: 2rem;
+    border-radius: 1rem;
+}
+thead > tr > td:nth-child(1) {
+    border-radius: 1rem 0 0 0;
+}
+thead > tr > td:nth-last-child(1) {
+    border-radius: 0 1rem 0 0;
+}
+tbody > tr:nth-last-child(1) > td:nth-child(1) {
+    border-radius: 0 0 0 1rem;
+}
+tbody > tr:nth-last-child(1) > td:nth-last-child(1) {
+    border-radius: 0 0 1rem 0;
 }
