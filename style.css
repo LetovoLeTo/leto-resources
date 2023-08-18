@@ -66,3 +66,7 @@ button:active, input[type="submit"]:active, .button:active {
     background: #8A3033;
     border: .15rem solid #ffd0d3;
 }
+
+table {
+    border-radius: 2rem;
+}
