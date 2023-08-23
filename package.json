@@ -1,0 +1,29 @@
+{
+  "name": "leto-resources",
+  "version": "0.1.0",
+  "description": "Images and CSS files for LeTo",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LetovoLeTo/leto-resources.git"
+  },
+  "keywords": [
+    "LeTo",
+    "resources",
+    "letovo"
+  ],
+  "author": "Milk_Cool",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LetovoLeTo/leto-resources/issues"
+  },
+  "homepage": "https://github.com/LetovoLeTo/leto-resources#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "request": "^2.88.2"
+  }
+}

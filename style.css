@@ -82,3 +82,25 @@ tbody > tr:nth-last-child(1) > td:nth-child(1) {
 tbody > tr:nth-last-child(1) > td:nth-last-child(1) {
     border-radius: 0 0 1rem 0;
 }
+
+div.notify, div.warn, div.error {
+    border-radius: 1rem;
+    font-family: Rubik;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+div.notify {
+    background: #d8d1ff;
+    border: .15rem solid #3e308a;
+}
+div.warn {
+    background: #FFFAD1;
+    border: .15rem solid #887f30;
+}
+div.error {
+    background: #ffd0d3;
+    border: .15rem solid #8A3033;
+}
