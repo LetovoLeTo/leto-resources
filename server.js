@@ -9,6 +9,6 @@ const port = 3001;
 
 app.use("/res", express.static("."));
 app.all("*", async (req, res) => {
-    request("http://localhost:3000" + req.url).pipe(res);
+    request[req.method.toLowerCase()]("http://localhost:3000" + req.url).pipe(res);
 })
 app.listen(port);
