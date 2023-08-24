@@ -42,6 +42,7 @@ input, textarea {
 
     border: .15rem solid #8A3033;
     min-height: 3rem;
+    max-width: 90vw;
     border-radius: 2rem;
     padding: 1rem;
     margin-top: .5rem;
