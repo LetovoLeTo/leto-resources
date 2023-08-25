@@ -1,5 +1,5 @@
 @media (min-width:1025px) {
-    *:not(body, html) {
+    *:not(body, html, a) {
         font-size: 85%;
     }
 }
