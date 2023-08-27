@@ -1,5 +1,5 @@
 @media (min-width:1025px) {
-    *:not(body, html, a) {
+    *:not(body, html, a, table, thead, tbody, tr, td) {
         font-size: 85%;
     }
 }
@@ -37,7 +37,7 @@ time, u, var, wbr, .text {
     font-size: 150%;
 }
 
-input, textarea {
+input:not([type="submit"]), textarea {
     font-family: Rubik;
 
     border: .15rem solid #8A3033;
