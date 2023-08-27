@@ -1,6 +1,6 @@
 @media (min-width:1025px) {
     *:not(body, html, a, table, thead, tbody, tr, td) {
-        font-size: small;
+        font-size: medium;
     }
 }
 
